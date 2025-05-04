@@ -1,35 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// PascalCase
+// ExeploDeComponente
+// primeira letra de cada palavra maiúscula
+export function App() {
+    console.log('oi');
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <div>
+            <h1>Olá Mundo!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum labore unde nesciunt ex fugiat omnis earum numquam, sed iste nobis iusto ratione aperiam totam voluptatem optio nihil incidunt recusandae dicta!</p>
+        </div>
+    );
 }
 
-export default App
+// ao usar o export default, o import pode ter qualquer nome
+// export default App;
