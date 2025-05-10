@@ -1,0 +1,10 @@
+/* Usando CSS Modules: usando arquivo como o mesmo nome do componente */
+
+.heading {
+    background: purple;
+    color: white;
+}
+
+.cyan{
+    color: cyan;
+}

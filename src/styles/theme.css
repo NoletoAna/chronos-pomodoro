@@ -1,0 +1,6 @@
+/* Variáveis de css */
+
+/* o Root representa o elemento raiz de um documento, é usado para definir variáveis CSS */
+:root{
+    --primary:pink;
+}
