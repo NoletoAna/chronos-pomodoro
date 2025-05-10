@@ -2,7 +2,8 @@
 // para cada componente, o CSS é escopado através da mudança no nome da classe, ou seja, não tem como sobrescrever o CSS de outro componente
 import styles from './Heading.module.css';
 
-export function Heading() {
+export function Heading(props) {
     // usando o modulo importado, podemos usar a classe que está no arquivo CSS
-    return <h1 className={styles.heading}>Olá Mundo!</h1>
+    console.log(props);
+    return <h1 className={styles.heading}>{props.children}</h1>
 }

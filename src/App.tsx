@@ -8,8 +8,10 @@ export function App() {
 
     return (
         <div>
-            <Heading/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum labore unde nesciunt ex fugiat omnis earum numquam, sed iste nobis iusto ratione aperiam totam voluptatem optio nihil incidunt recusandae dicta!</p>
+            <Heading attr={123} attr2='string'> Teste </Heading>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum labore unde nesciunt ex fugiat omnis earum numquam, sed iste nobis iusto ratione aperiam totam voluptatem optio nihil incidunt recusandae dicta!
+            </p>
         </div>
     );
 }
