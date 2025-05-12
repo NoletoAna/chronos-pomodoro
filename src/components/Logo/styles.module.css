@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.2rem;
+}
+
+.logoLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    gap: 0.4rem;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-decoration: none;
+    /* transição ao passar o curso no logo link */
+    /* no componente todo; por quanto tempo; é o tipo de curva de aceleração da transição — começa devagar, acelera no meio e desacelera no final, criando uma animação mais natural. */
+    transition: all 0.1s ease-in-out;
+}
+
+/* O que vai acontecer ao passar o cursor do mouse no elemento que receber essa classe */
+.logoLink:hover{
+    filter: brightness(80%);
+}

@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+
+}
+
+.iconMenu {
+    background-color: var(--primary);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.iconMenu svg{
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.iconMenu:hover{
+    filter: brightness(80%);
+}
+
+a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
