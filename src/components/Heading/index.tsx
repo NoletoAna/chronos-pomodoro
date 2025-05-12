@@ -1,9 +1,12 @@
 // ".module" permite criar uma variável para pegar o valor das classes que estão no arquivo CSS
 // para cada componente, o CSS é escopado através da mudança no nome da classe, ou seja, não tem como sobrescrever o CSS de outro componente
-import styles from './Heading.module.css';
+import styles from './styles.module.css';
 
-export function Heading(props) {
+type HeadingProps = {
+    children:React.ReactNode;
+}
+
+export function Heading({children}:HeadingProps) {
     // usando o modulo importado, podemos usar a classe que está no arquivo CSS
-    console.log(props);
-    return <h1 className={styles.heading}>{props.children}</h1>
+    return <h1 className={styles.heading}>{children}</h1>
 }
