@@ -2,7 +2,6 @@
 
 /* o Root representa o elemento raiz de um documento, é usado para definir variáveis CSS */
 :root {
-    --primary: pink;
     --gray-100: #e6e9f0;
     --gray-200: #cdd3e1;
     --gray-300: #aab3cc;

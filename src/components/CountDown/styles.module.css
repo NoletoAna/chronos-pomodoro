@@ -1,0 +1,9 @@
+.container{
+    /* funciona para adaptar a fonte ao tamanho da tela */
+    /* MINIMO, IDEAL, MÁXIMO */
+    font-size: clamp(8rem, 25vw, 10rem);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+}
+
