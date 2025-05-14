@@ -6,7 +6,11 @@ import Menu from './components/Menu';
 import CountDown from './components/CountDown';
 import Input from './components/Input/input';
 import Cycles from './components/Cycles/index';
-import Button from './components/Button/input';
+import Button from './components/Button/Button';
+import { CirclePlay } from 'lucide-react';
+import { StopCircle } from 'lucide-react';
+import Footer from './components/Footer/Footer';
+
 
 // PascalCase 'ExeploDeComponente': primeira letra de cada palavra maiúscula
 export function App() {
@@ -33,9 +37,12 @@ export function App() {
 						<Cycles />
 					</div>
 					<div className="formRow">
-						<Button />
+						<Button icon={<CirclePlay />} />
 					</div>
 				</form>
+			</Container>
+			<Container>
+				<Footer/>
 			</Container>
 		</>
 	);
